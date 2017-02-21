@@ -1,0 +1,28 @@
+button.block {
+	background: #7DCDFF;
+	color: #FFF;
+	font-size: 25px;
+	cursor: pointer;
+	padding: 20px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+
+button.block:first-child {
+	border-radius: 8px 8px 0 0;
+} 
+
+button.block.active, button.block:hover {
+	background: #FFF600;
+}
+
+div {
+	font-size: 25px;
+	padding: 0 25px;
+	background: #FAFFF5;
+	color: #000;
+	display: none; 
+}
